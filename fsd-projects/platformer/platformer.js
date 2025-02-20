@@ -31,10 +31,10 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(500, 325, 200 , 20 , "darkblue");
-createPlatform(400,375,150,25, "purple");
-createPlatform(300,450,100,20, "red");
-createPlatform(250,525,30,20, "aqua");
+createPlatform(500, 500, 200 , 20 , "darkblue");
+createPlatform(400,525,150,25, "purple");
+createPlatform(300,550,100,20, "red");
+createPlatform(250,575,30,20, "aqua");
 createPlateform(150,600,60,20,"orange");
 
 
