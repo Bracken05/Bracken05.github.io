@@ -41,17 +41,17 @@ createPlateform(150,700,60,20,"orange");
 
 
     // TODO 3 - Create Collectables
-createCollectable("Steve",15,75);
-createCollectable("diamond", 20, 170, 0.5, 0.7 );
-createCollectable("bob",50,60,0.4,0.8);
+createCollectable("Steve",150,700);
+createCollectable("diamond", 200, 650, 0.5, 0.7 );
+createCollectable("bob",100,600,0.4,0.8);
 
 
 
     
     // TODO 4 - Create Cannons
-createCannons("left", 300, 2000);
-createCannons("right", 900, 1750);
-createCannon("top", 600, 1250);
+createCannons("left", 300, 200);
+createCannons("right", 600, 600);
+createCannon("top", 500, 400);
 
     
     
