@@ -20,8 +20,8 @@ var init = function (window) {
         ///////////////////
         
         // TODO 1 : Declare and initialize our variables
-var = circle;
-var = circle[];
+var circle;
+var circles = [];
 
 
         // TODO 2 : Create a function that draws a circle 
@@ -38,8 +38,8 @@ circles.push(circle);
 
 
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 25; i++) {
-drawCircle(100)
+        for (var i = 0; i < 100; i++) {
+drawCircle()
         }
 
 
@@ -84,11 +84,11 @@ drawCircle(100)
             if (circle.y > canvas.height){
                 circle.y = 0
             }
-            if (circle.x < canvas.width){
-                circle.x = 0
+            if (circle.x < 0){
+                circle.x = canvas.width
             }
-            if (circle.y < canvas.height){
-                circle.y = 0
+            if (circle.y < 0){
+                circle.y = canvas.height
             }
 
 
